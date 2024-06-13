@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextDay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Día 1"/>
+
+    <EditText
+        android:id="@+id/editTextDay2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Día 2"
+        android:layout_below="@id/editTextDay1"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextDay3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Día 3"
+        android:layout_below="@id/editTextDay2"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextDay4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Día 4"
+        android:layout_below="@id/editTextDay3"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextDay5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Día 5"
+        android:layout_below="@id/editTextDay4"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextDay6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Día 6"
+        android:layout_below="@id/editTextDay5"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextDay7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Día 7"
+        android:layout_below="@id/editTextDay6"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar"
+        android:layout_below="@id/editTextDay7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:layout_below="@id/btnSave"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnBackToMainFromRealTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        android:onClick="backToMain"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+</RelativeLayout>

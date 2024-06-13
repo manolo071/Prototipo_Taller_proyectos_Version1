@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "524431447044",
+    "project_id": "sistema-de-control-7b037",
+    "storage_bucket": "sistema-de-control-7b037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524431447044:android:a5bf332d2aa89aa7bc5151",
+        "android_client_info": {
+          "package_name": "com.example.controlversion12"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOHM5WQwk0gEFEFuKNkaWIQ3QOB9bCrsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
